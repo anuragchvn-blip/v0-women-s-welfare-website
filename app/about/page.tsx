@@ -106,9 +106,8 @@ export default function AboutPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600">
-                    Operating Partner at Kedaara Capital. Ashwani Maheshwari is a veteran business leader with over
-                    three decades of experience across top industrial sectors. As the founder of CJS Foundation, he
-                    brings his strategic foresight and leadership to drive transformative community initiatives.
+                 Ashwani Maheshwari is a seasoned business leader with a distinguished career spanning the automotive, manufacturing, IT services, and private equity sectors. An alumnus of IIT Roorkee and London Business School, he has held key executive roles at Tata Steel, ITC, Birla Tyres, ITC Infotech, and Varroc Engineering.
+                 He also serves on the boards of several prominent companies. His leadership is marked by a strong strategic vision and a track record of driving growth and transformation across industries
                   </p>
                 </CardContent>
               </Card>
@@ -249,84 +248,6 @@ export default function AboutPage() {
                   </Button>
                 </div>
               </div>
-            </ScrollReveal>
-          </div>
-        </div>
-      </section>
-
-      {/* Team */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f7931e]/10">
-        <div className="container px-4 md:px-6">
-          <ScrollReveal>
-            <div className="flex flex-col items-center space-y-4 text-center">
-              <div className="inline-block rounded-lg bg-white px-3 py-1 text-sm">Our Team</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#002f86]">
-                Meet Our Leadership Team
-              </h2>
-              <p className="max-w-[700px] text-gray-500 md:text-xl">
-                Our dedicated team brings diverse expertise and a shared commitment to our mission.
-              </p>
-            </div>
-          </ScrollReveal>
-
-          <div className="grid gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3">
-            <ScrollReveal delay={0.1}>
-              <Card className="overflow-hidden">
-                <div className="relative h-[300px] w-full">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <CardHeader>
-                  <CardTitle>Founder</CardTitle>
-                  <CardDescription>Executive Director</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-500">
-                    With a passion for women's empowerment, our founder brings vision, dedication, and strategic
-                    direction to our organization.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
-            <ScrollReveal delay={0.2}>
-              <Card className="overflow-hidden">
-                <div className="relative h-[300px] w-full">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <CardHeader>
-                  <CardTitle>Program Director</CardTitle>
-                  <CardDescription>Director of Programs</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-500">
-                    Our Program Director oversees our skill development initiatives, ensuring they effectively address
-                    the needs of women we serve.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
-            <ScrollReveal delay={0.3}>
-              <Card className="overflow-hidden">
-                <div className="relative h-[300px] w-full">
-                  <Image src="/placeholder.svg?height=300&width=300" alt="Team Member" fill className="object-cover" />
-                </div>
-                <CardHeader>
-                  <CardTitle>Development Director</CardTitle>
-                  <CardDescription>Director of Development</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-sm text-gray-500">
-                    Our Development Director leads fundraising and partnership initiatives, building relationships that
-                    support our mission and expand our impact.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
-          </div>
-          <div className="flex justify-center mt-12">
-            <ScrollReveal delay={0.4}>
-              <Button className="bg-[#002f86] hover:bg-[#002f86]/90">
-                <Link href="/about/team">View Full Team</Link>
-              </Button>
             </ScrollReveal>
           </div>
         </div>

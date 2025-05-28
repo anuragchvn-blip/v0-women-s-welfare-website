@@ -1,73 +1,69 @@
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowLeft, Facebook, Instagram, Linkedin, Mail, Twitter } from "lucide-react"
+
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { ScrollReveal } from "@/components/scroll-reveal"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function TeamPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Volunteers */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f7931e]/10">
+      {/* Hero Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#002f86] text-white">
         <div className="container px-4 md:px-6">
-          <ScrollReveal>
-            <div className="flex flex-col items-center space-y-4 text-center mb-12">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#002f86]">Volunteers</h2>
-              <p className="max-w-[700px] text-gray-500 md:text-xl">
-                Our dedicated volunteers are the heartbeat of our foundation, offering their time and talents to uplift our mission.
-              </p>
+          <div className="flex flex-col items-center space-y-4 text-center">
+            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Team</h1>
+            <p className="max-w-[700px] text-white/80 md:text-xl">
+              Meet the dedicated individuals who work tirelessly to fulfill our mission of empowering women
+            </p>
+            <div className="mt-6">
+              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-[#002f86]">
+                <Link href="/about" className="flex items-center gap-2">
+                  <ArrowLeft className="h-4 w-4" /> Back to About Us
+                </Link>
+              </Button>
             </div>
-          </ScrollReveal>
+          </div>
+        </div>
+      </section>
 
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <ScrollReveal delay={0.1}>
-              <Card>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Mentorship Volunteer</CardTitle>
-                </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-gray-500">
-                    Provides guidance and support to women enrolled in our training programs, fostering growth and confidence.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
+     
 
-            <ScrollReveal delay={0.2}>
-              <Card>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Event Volunteer</CardTitle>
-                </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-gray-500">
-                    Helps plan and organize events that raise awareness and support for our foundation's mission.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
-
-            <ScrollReveal delay={0.3}>
-              <Card>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Fundraising Volunteer</CardTitle>
-                </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-gray-500">
-                    Supports our fundraising efforts through outreach and donor engagement to secure vital resources.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
-
-            <ScrollReveal delay={0.4}>
-              <Card>
-                <CardHeader className="p-4">
-                  <CardTitle className="text-lg">Administrative Volunteer</CardTitle>
-                </CardHeader>
-                <CardContent className="p-4 pt-0">
-                  <p className="text-sm text-gray-500">
-                    Assists with daily operations, ensuring smooth communication and coordination across departments.
-                  </p>
-                </CardContent>
-              </Card>
-            </ScrollReveal>
+      {/* Contact Section */}
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-[#002f86] text-white">
+        <div className="container px-4 md:px-6">
+          <div className="flex flex-col items-center space-y-4 text-center">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Connect With Our Team</h2>
+            <p className="max-w-[700px] text-white/80 md:text-xl">
+              Have questions about our team or interested in joining our efforts? We'd love to hear from you.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 mt-6">
+              <Button className="bg-white text-[#002f86] hover:bg-white/90">
+                <Link href="/contact">Contact Us</Link>
+              </Button>
+              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-[#002f86]">
+                <Link href="/get-involved">Join Our Team</Link>
+              </Button>
+            </div>
+            <div className="flex justify-center gap-4 mt-8">
+              <Link href="#" className="text-white/80 hover:text-white">
+                <Facebook className="h-6 w-6" />
+                <span className="sr-only">Facebook</span>
+              </Link>
+              <Link href="#" className="text-white/80 hover:text-white">
+                <Twitter className="h-6 w-6" />
+                <span className="sr-only">Twitter</span>
+              </Link>
+              <Link href="#" className="text-white/80 hover:text-white">
+                <Instagram className="h-6 w-6" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <Link href="#" className="text-white/80 hover:text-white">
+                <Linkedin className="h-6 w-6" />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

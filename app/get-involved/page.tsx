@@ -452,14 +452,14 @@ export default function GetInvolvedPage() {
                     <Mail className="h-8 w-8 text-[#002f86]" />
                     <div>
                       <h3 className="font-medium">Email Us</h3>
-                      <p className="text-sm text-gray-500">info@chandrajaisocialfoundation.org</p>
+                      <p className="text-sm text-gray-500">chandrajaifoundation@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <MessageSquare className="h-8 w-8 text-[#002f86]" />
                     <div>
                       <h3 className="font-medium">Call Us</h3>
-                      <p className="text-sm text-gray-500">+91 98765 43210</p>
+                      <p className="text-sm text-gray-500">+91 9739013404</p>
                     </div>
                   </div>
                 </div>

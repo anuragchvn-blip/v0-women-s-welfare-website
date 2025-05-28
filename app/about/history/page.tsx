@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, FileText } from "lucide-react"
 
@@ -62,12 +61,6 @@ export default function HistoryPage() {
                       </p>
                     </div>
                     <div className="relative h-[250px] md:h-[300px] rounded-xl overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=300&width=500"
-                        alt="Foundation Establishment"
-                        fill
-                        className="object-cover"
-                      />
                     </div>
                   </div>
                 </div>
@@ -88,12 +81,6 @@ export default function HistoryPage() {
                       </p>
                     </div>
                     <div className="md:order-1 relative h-[250px] md:h-[300px] rounded-xl overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=300&width=500"
-                        alt="First Educational Program"
-                        fill
-                        className="object-cover"
-                      />
                     </div>
                   </div>
                 </div>
@@ -114,12 +101,6 @@ export default function HistoryPage() {
                       </p>
                     </div>
                     <div className="relative h-[250px] md:h-[300px] rounded-xl overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=300&width=500"
-                        alt="Skill Development Initiative"
-                        fill
-                        className="object-cover"
-                      />
                     </div>
                   </div>
                 </div>
@@ -140,12 +121,6 @@ export default function HistoryPage() {
                       </p>
                     </div>
                     <div className="md:order-1 relative h-[250px] md:h-[300px] rounded-xl overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=300&width=500"
-                        alt="80G Certification"
-                        fill
-                        className="object-cover"
-                      />
                     </div>
                   </div>
                 </div>
@@ -166,7 +141,6 @@ export default function HistoryPage() {
                       </p>
                     </div>
                     <div className="relative h-[250px] md:h-[300px] rounded-xl overflow-hidden">
-                      <Image src="/images/donation-handover.png" alt="Growing Impact" fill className="object-cover" />
                     </div>
                   </div>
                 </div>
