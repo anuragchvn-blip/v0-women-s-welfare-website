@@ -217,7 +217,7 @@ export default function AboutPage() {
             <ScrollReveal>
               <div className="relative h-[300px] md:h-[400px] overflow-hidden rounded-xl">
                 <Image
-                  src="/images/donation-handover.png"
+                  src="/images/phoenix-school-support.png"
                   alt="Educational support activities"
                   fill
                   className="object-cover"

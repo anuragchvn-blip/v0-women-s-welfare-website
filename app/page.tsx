@@ -257,8 +257,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Get Involved */}
+     {/* Get Involved */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-[#f7931e]/10">
         <div className="container px-4 md:px-6">
           <ScrollReveal>
